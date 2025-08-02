@@ -75,7 +75,7 @@ button {
 
 .info-auxiliary {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
     width: 1170px;
 }
@@ -87,14 +87,14 @@ button {
     width: 1170px;
     flex-wrap: wrap;
 }
-
-.info-auxiliary-main-element {
-    align-self: flex-start;
-}
-
 .info-footer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 1170px;
+}
+
+.info-auxiliary-main-element {
+    display: flex;
+    justify-content: center;
 }
