@@ -4,7 +4,18 @@
     font-size: 26px;
     line-height: 100%;
     letter-spacing: 3%;
+    color: #2196F3;
+    margin-left: 150px;
 }
+
+.logotext-black{
+    color: black;
+}
+
+.logotext-white {
+    color: white;
+}
+
 h1 {
     font-family: Roboto;
     font-weight: 900;
@@ -32,6 +43,10 @@ button {
     letter-spacing: 6%;
     text-align: center;
     vertical-align: middle;
+    background-color: #2196F3;
+    color: white;
+    width: 216px;
+    height: 50px;
 }
 .textTitle {
     font-family: Roboto;
@@ -66,11 +81,21 @@ button {
     align-items: center;
 }
 
+.navigation-text {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 2%;
+}
+
 .info-main {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     width: 1170px;
+    margin-top: 100px;
 }
 
 .info-auxiliary {
@@ -86,15 +111,96 @@ button {
     margin: 0 auto;
     width: 1170px;
     flex-wrap: wrap;
+    background-color: #F5F4FA;
+    margin-top: 100px;
 }
 .info-footer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 1170px;
+    background-color: #2F303A;
+    color: white;
+    width: auto;
+    margin-top: 50px;
+    height: 300px;
+    justify-content: center;
+}
+
+.footer-element {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #FFFFFF99;
+    margin-left: 150px;
 }
 
 .info-auxiliary-main-element {
     display: flex;
     justify-content: center;
+}
+
+.info-auxiliary-main-element {
+    margin-top: 100px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #212121;
+}
+
+.table-element-main {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.table-element-auxiliary {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #757575;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-menu a,
+.contact-info a {
+  text-decoration: none; 
+  color: #333; 
+  margin-right: 100px; 
+}
+
+.nav-menu a:last-child,
+.contact-info a:last-child {
+  margin-right: 150px;
+}
+
+.nav-menu a, {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 2%;
 }
